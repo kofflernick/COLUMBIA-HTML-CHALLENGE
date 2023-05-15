@@ -73,3 +73,19 @@ header {
   font-size: 14px;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 768px) {
+  .module {
+    flex-direction: column;
+  }
+
+  .module-image {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .module-text h2 {
+    padding-left: 0;
+  }
+}
