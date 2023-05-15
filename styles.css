@@ -1,0 +1,75 @@
+body {
+  margin: 25px;
+  font-family: sans-serif;
+}
+
+/* stylings for banner and text below it */
+
+header {
+  position: relative;
+}
+
+.header-text {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: 55px;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  padding-left: 165px;
+  padding-bottom: 3px;
+  color: #fff;
+}
+
+.banner-text h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* stylings for modules */
+
+.module {
+  display: flex;
+  margin-top: 15px;
+}
+
+.module-image {
+  width: 300px;
+  height: 130px;
+  margin-right: 20px;
+  padding-top: 15px;
+}
+
+.module-text {
+  flex: 1;
+}
+
+.module-text h2 {
+  text-decoration: underline;
+  font-size: 18px;
+  background-color: #cccccc4f;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.module-text p {
+  font-size: 14px;
+  line-height: 1.5;
+}
